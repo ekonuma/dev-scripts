@@ -1,16 +1,10 @@
-#!/bin/bash
-#install zsh for debian familly
-#install zshell
 echo "*** Start Zsh install... ***"
 sudo apt install zsh
 echo "*** Successfully installed! ***"
 zsh --version
-#install oh my zsh
 echo "*** Start Oh My Zsh install... ***"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "*** Successfully installed! ***"
-zsh --version
-#install spaceship
 echo "*** Start spaceship setup... ***"
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
