@@ -110,8 +110,6 @@ version=TLSv1_2
 
 validate=false
 
-export CASSANDRA_PASSWORD="Sl7Ur6T6NOnhWyjZZj9jXRLujLTp2dpBgEK1+9Jjc+NKjTBZenzR6jpAckJbdHAtNx2dvw+VEiKiD0bXxgjXPQ=="
-
 KAFKA_HOME="$HOME/kafka/"
 export PATH=$kafka/bin:$PATH
 
